@@ -4,6 +4,7 @@ import './App.css';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Rooms from './Pages/Rooms';
+import Gallery from './Pages/Gallery';
 import SingleRoom from './Pages/SingleRoom';
 import Error from './Pages/Error';
 
@@ -19,6 +20,7 @@ function App() {
       <Route exact path='/' component={Home} />
       <Route exact path='/about' component={About} />
       <Route exact path='/rooms' component={Rooms} />
+      <Route exact path='/gallery' component={Gallery}/>
       <Route exact path='/rooms/:slug' component={SingleRoom} />
       <Route component={Error} />
      </Switch> 

@@ -5,6 +5,8 @@ import {Link} from 'react-router-dom';
 import Services from '../Components/Services';
 import FeaturedRooms from '../Components/FeaturedRooms';
 import Aboutus from '../Components/Aboutus';
+import ImagesSlider from '../Components/ImagesSlider';
+import { SliderData } from '../Components/SliderData';
 
 export default function Home() {
     return( 
@@ -19,6 +21,7 @@ export default function Home() {
         <Aboutus/>
         <Services />
         <FeaturedRooms />
+        <ImagesSlider slides={SliderData} />
      </>
     );
 }
