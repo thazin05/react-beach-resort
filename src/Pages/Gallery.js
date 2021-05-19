@@ -10,7 +10,7 @@ export default function Gallery() {
     <>
         <Hero hero='aboutHero'>
             <Banner title='Gallery'>
-                <Link to='/'>Return Home</Link>
+                <Link to='/' className='btn-primary'>Return Home</Link>
             </Banner>
         </Hero>
         <ImagesSlider slides={SliderData} />
