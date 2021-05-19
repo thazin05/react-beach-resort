@@ -18,9 +18,9 @@ export default function Home() {
                 </Link>
             </Banner>
         </Hero>
-        <Aboutus/>
-        <Services />
         <FeaturedRooms />
+        <Services />
+        <Aboutus/>
         <ImagesSlider slides={SliderData} />
      </>
     );
