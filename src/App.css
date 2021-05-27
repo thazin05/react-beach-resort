@@ -222,6 +222,51 @@ h6 {
   }
 }
 /* End of Banner */
+/* About Banner */
+.about-banner {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.8);
+  color: var(--mainWhite);
+  padding: 2rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  margin: 5% auto;
+}
+.about-banner h1 {
+  font-size: 2.5rem;
+}
+.about-banner div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+.about-banner p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  font-weight: 400 !important;
+  letter-spacing: normal;
+  line-height: 1.7rem;
+}
+@media screen and (min-width: 576px) {
+  .about-banner {
+    padding: 2rem 3rem;
+  }
+  .about-banner h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .about-banner {max-width: 50%;}
+  .about-banner {
+    padding: 2rem 6rem;
+  }
+  .about-banner h1 {
+    font-size: 4rem;
+  }
+}
+/* End of About Banner */
 /* Title */
 .section-title {
   text-align: center;
@@ -243,7 +288,7 @@ h6 {
 
 /*about us*/
 .aboutus {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 .aboutus {
   background: var(--mainWhite);
@@ -271,7 +316,32 @@ h6 {
   width: 100%;
   height:auto;
 }
-
+.free-services-center{margin:5% 0}
+.about-freeservices-center{
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 0;
+}
+@media screen and (min-width:992px){
+  .aboutus .free-services{
+    width: 150px;
+      border: 1px solid #ddd;
+      border-radius: 100px;
+      height: 150px;
+      padding: 10px;
+      margin: 0 auto;
+  }
+  .aboutus .free-services:hover{background:#ddd;border-color:#AF9A7D;transition: 0.5s ease-in;}
+  .aboutus .free-services h6{font-size:0.8em;}
+  .about-freeservices-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+}
+/*end of about us*/
 /* services */
 .services {
   padding: 5rem 0;
@@ -550,7 +620,7 @@ h6 {
     width: 90vw;
   }
   .aboutus p {
-    width: 35%;
+    width: 50%;
     margin: 0 auto;
   }
 }

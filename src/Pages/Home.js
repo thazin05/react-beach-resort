@@ -4,7 +4,7 @@ import Banner from '../Components/Banner';
 import {Link} from 'react-router-dom';
 import Services from '../Components/Services';
 import FeaturedRooms from '../Components/FeaturedRooms';
-import Aboutus from '../Components/Aboutus';
+import About from '../Pages/About';
 import ImagesSlider from '../Components/ImagesSlider';
 import { SliderData } from '../Components/SliderData';
 
@@ -20,7 +20,7 @@ export default function Home() {
         </Hero>
         <FeaturedRooms />
         <Services />
-        <Aboutus/>
+        <About/>
         <ImagesSlider slides={SliderData} />
      </>
     );

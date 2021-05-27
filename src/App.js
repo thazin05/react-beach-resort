@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import Home from './Pages/Home';
-import About from './Pages/About';
+import About from './Pages/AboutDetails';
 import Rooms from './Pages/Rooms';
 import Gallery from './Pages/Gallery';
 import SingleRoom from './Pages/SingleRoom';
