@@ -7,7 +7,8 @@ import FeaturedRooms from '../Components/FeaturedRooms';
 import About from '../Pages/About';
 import ImagesSlider from '../Components/ImagesSlider';
 import { SliderData } from '../Components/SliderData';
-
+import Map from '../Components/map';
+import Footer from '../Components/footer';
 export default function Home() {
     return( 
      <>
@@ -22,6 +23,8 @@ export default function Home() {
         <Services />
         <About/>
         <ImagesSlider slides={SliderData} />
+        <Map />
+        <Footer />
      </>
     );
 }

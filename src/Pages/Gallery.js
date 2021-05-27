@@ -4,6 +4,7 @@ import ImagesSlider from '../Components/ImagesSlider';
 import { SliderData } from '../Components/SliderData';
 import Banner from '../Components/Banner';
 import {Link} from 'react-router-dom';
+import Footer from '../Components/footer';
 
 export default function Gallery() {
   return (
@@ -14,6 +15,7 @@ export default function Gallery() {
             </Banner>
         </Hero>
         <ImagesSlider slides={SliderData} />
+        <Footer />
     </>
   );
 }

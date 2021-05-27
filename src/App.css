@@ -683,3 +683,19 @@ h6 {
   }
 }
 /* end of rooms fitler*/
+/* map */
+.leaflet-container{ height: 500px;width: 100vw; }
+/* end of map */ 
+/*footer*/
+.footer{
+  background: #242323;
+  width: 100%;
+  padding:30px 15px;
+  text-align:center;
+}
+.footer p{
+  font-size: 0.7em;
+  color:#fff;
+  margin: 0;
+}
+/*end of footer*/
