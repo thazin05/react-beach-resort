@@ -4,6 +4,7 @@ import defaultBcg from "../images/room-1.jpeg";
 import Banner from "../Components/Banner";
 import { Link } from "react-router-dom";
 import { RoomContext } from "../context";
+import Footer from '../Components/footer';
 
 import StyledHero from "../Components/StyledHero";
 export default class SingleRoom extends Component {
@@ -89,6 +90,7 @@ export default class SingleRoom extends Component {
             ))}
           </ul>
         </section>
+        <Footer />
       </>
     );
   }

@@ -127,7 +127,7 @@ h6 {
   text-align: center;
   font-size: 1rem;
   font-weight: 600;
-  letter-spacing: var(--mainSpacing);
+  /* letter-spacing: var(--mainSpacing); */
 }
 .nav-links a:hover {
   color: var(--primaryColor);
@@ -148,7 +148,8 @@ h6 {
   .nav-links {
     height: auto;
     display: flex;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
+    margin-left: 20%;
     margin-top: 1.5rem;
   }
   .nav-links a {
@@ -391,48 +392,18 @@ h6 {
 /*Gallery*/
 .Gallery{
   padding: 5rem 0;
-  background: var(--darkGrey);
+  background: #41424B;
 }
-.slider{
-  position: relative;
-  height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.Gallery h1{
+  color:#fff;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.slider-img{
-  width: 1000px;
-  height: 600px;
-  border-radius: 10px;
-}
-.right-arrow{
-  position: absolute;
-  top:50%;
-  right:70px;
-  font-size:3rem;
-  color:#000;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-}
-.left-arrow{
-  position: absolute;
-  top:50%;
-  left:70px;
-  font-size:3rem;
-  color:#000;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
-}
-.slide{
-  opacity: 0;
-  transition-duration: 1s ease;
-}
-.slide.active{
-  opacity: 1;
-  transition-duration: 1s;
-  transform: scale(1.08);
+.styles_grid__1mw-l{max-width: 1200px !important;}
+.styles_gridItem__nPXhF {
+  min-width: 300px !important;
+  max-width: 300px !important;
+  flex: 1 1 300px !important;
 }
 /*end gallery*/
 /* featured rooms */
@@ -685,7 +656,12 @@ h6 {
 /* end of rooms fitler*/
 /* map */
 .leaflet-container{ height: 500px;width: 100vw; }
-/* end of map */ 
+/* end of map */
+/* Awards and Partners */
+@media screen and (min-width:991px){
+  .awards-img{height:110px;width:auto;}
+}
+/* end Awards and Partners */ 
 /*footer*/
 .footer{
   background: #242323;
